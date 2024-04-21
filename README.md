@@ -1,2 +1,2 @@
-# -MaterialSeg3D.github.io
+# MaterialSeg3D.github.io
 Project Homepage
