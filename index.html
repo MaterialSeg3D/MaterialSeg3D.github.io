@@ -58,7 +58,7 @@
       </span>
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
+<!--       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More Research
         </a>
@@ -76,7 +76,7 @@
             PhotoShape
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
@@ -190,7 +190,7 @@
     </div>
   </div>
 </section>
-
+<!-- 
 
 <section class="hero is-light is-small">
   <div class="hero-body">
@@ -247,7 +247,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -258,31 +258,18 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+Driven by powerful image diffusion models, recent research has achieved the automatic creation of 3D objects from textual or visual guidance.
+By performing score distillation sampling (SDS) iteratively across different views, these methods succeed in lifting 2D generative prior to the 3D space.
+However, such a 2D generative image prior bakes the effect of illumination and shadow into the texture.
+As a result, material maps optimized by SDS inevitably involve spurious correlated components.
+The absence of precise material definition makes it infeasible to relight the generated assets reasonably in novel scenes, which limits their application in downstream scenarios.
+In contrast, humans can effortlessly circumvent this ambiguity by deducing the material of the object from its appearance and semantics.
+Motivated by this insight, we propose MaterialSeg3D, a 3D asset material generation framework to infer underlying material from the 2D semantic prior.
+Based on such a prior model, we devise a mechanism to parse material in 3D space.
+We maintain a UV stack, each map of which is unprojected from a specific viewpoint.
+After traversing all viewpoints, we fuse the stack through a weighted voting scheme and then employ region unification to ensure the coherence of the object parts. 
+To fuel the learning of semantics prior, we collect a material dataset, named Materialized Individual Objects (MIO), which features abundant images, diverse categories, and accurate annotations.
+Extensive quantitative and qualitative experiments demonstrate the effectiveness of our method.
           </p>
         </div>
       </div>
@@ -310,7 +297,7 @@
     <div class="columns is-centered">
 
       <!-- Visual Effects. -->
-      <div class="column">
+<!--       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
           <p>
@@ -322,11 +309,11 @@
                     type="video/mp4">
           </video>
         </div>
-      </div>
+      </div> -->
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-      <div class="column">
+<!--       <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
           <div class="column content">
@@ -342,7 +329,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Matting. -->
 
     <!-- Animation. -->
@@ -351,7 +338,7 @@
         <h2 class="title is-3">Animation</h2>
 
         <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+<!--         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -381,11 +368,11 @@
             <p class="is-bold">End Frame</p>
           </div>
         </div>
-        <br/>
+        <br/> -->
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+<!--         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
@@ -402,7 +389,7 @@
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
         <!--/ Re-rendering. -->
 
       </div>
@@ -411,7 +398,7 @@
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+<!--     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
 
@@ -434,7 +421,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
