@@ -15,7 +15,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2312.05767-b31b1b.svg)](https://arxiv.org/abs/2312.05767)
 
-[Project Page]([https://sjtuplayer.github.io/anomalydiffusion-page/](https://materialseg3d.github.io/))
+[Project Page]([https://materialseg3d.github.io/]())
 
 
 
