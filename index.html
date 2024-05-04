@@ -279,13 +279,14 @@
 </section> -->
 
     <img class="small-image" src="./static/images/image1.png" alt="PDF Page 1">
+  <div class="content has-text-justified">
   <p>
 (a) Renderings of raw 3D assets that only have albedo information. 
 (b) Renderings of processed assets with material information under different lighting conditions. 
 Given a raw asset, our MaterialSeg3D can actively predict and refine dense explicit surface material based on 2D priors. 
 Equipped with material definitions, 3D assets support physically based rendering, leading to photorealistic visual effects.
   </p>
-
+  </div>
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -314,12 +315,13 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
     <!--/ Abstract. -->
 
     <img src="./static/images/pipeline.png" alt="PDF Page 2">
-  <p>
+  <div class="content has-text-justified">
+    <p>
 <strong>Overall framework of MaterialSeg3D workflow.</strong> The material segmentation model is trained on MIO beforehand. Multi-view renderings are first generated 
     with pre-defined and randomly selected camera angles and are further inferenced by the material segmentation model and attached to a stacked temporary UV map. Weighted 
     voting and region unification are further applied to generate the final material UV.
   </p>
-
+</div>
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
