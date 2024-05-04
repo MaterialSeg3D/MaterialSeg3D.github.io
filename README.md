@@ -13,7 +13,7 @@
 [<sup>5</sup>Beijing University of Aeronautics and Astronautics](https://open.youtu.qq.com/#/open)
 [<sup>6</sup>Beijing University of Aeronautics and Astronautics](https://open.youtu.qq.com/#/open)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2312.05767-b31b1b.svg)](https://arxiv.org/abs/2312.05767)
+[![arXiv](https://img.shields.io/badge/arXiv-2312.05767-b31b1b.svg)](https://arxiv.org/abs/2404.13923)
 
 [Project Page](https://materialseg3d.github.io/)
 
