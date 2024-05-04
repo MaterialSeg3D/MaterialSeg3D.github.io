@@ -407,11 +407,30 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
       </div>
     </div>
     <!--/ Matting. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Quantitative Results</h2>
+         <img src="./static/images/result.png" alt="PDF Page 2">
+        <div class="content has-text-justified">
+
+<p>
+  Furthermore, we also provide quantitative results comparing our method and existing Image-to-3D methods including Wonder3D, TripoSR, and OpenLRM. We adopt CLIP Similarity, PSNR, and SSIM as the evaluations, and the corresponding results are shown in Table. We choose assets from Objaverse-1.0 dataset as the test sample and randomly select three camera angles as novel views. The ground-truth reference and novel views are captured from assets with ground-truth material information and fixed lighting conditions. Given a well-defined 3D mesh and Albedo, our workflow can provide reliable PBR material, resulting in more realistic rendering visual effects.
+</p>
+        </div>
+      </div>
+</div>
+    </div>
+    <!--/ Abstract. -->
+
+</section>
 
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+<!--         <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
 <!--         <h3 class="title is-4">Interpolating states</h3>
@@ -467,9 +486,9 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
           </video>
         </div> -->
         <!--/ Re-rendering. -->
-
+<!-- 
       </div>
-    </div>
+    </div> -->
     <!--/ Animation. -->
 
 
@@ -507,14 +526,15 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@article{li2024materialseg3d,
+  title     = {MaterialSeg3D: Segmenting Dense Materials from 2D Priors for 3D Assets},
+  author    = {Li, Zeyu and Gan, Ruitong and Luo, Chuanchen and Wang, Yuxi and Liu, Jiaheng and Zhang, Ziwei Zhu Man and Li, Qing and Yin, Xucheng and Zhang, Zhaoxiang and Peng, Junran},
+  journal   = {arXiv preprint arXiv:2404.13923},
+  year      = {2024}
 }</code></pre>
   </div>
 </section>
+
 
 
 <footer class="footer">
