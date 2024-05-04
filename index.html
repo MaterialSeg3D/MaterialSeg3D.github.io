@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+<!--   <link rel="icon" href="./static/images/favicon.svg"> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -348,46 +348,64 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overall Performances</h2>
+         <img class="small-image" src="./static/images/compare.png" alt="PDF Page 2">
+        <div class="content has-text-justified">
+
+ <p>To evaluate the effectiveness of the proposed material generation method, we compare previous approaches from the following three aspects: single-image-to-3D generation methods, texture generation methods, and public 3D assets. The corresponding results are shown in Figer. Considering single image-to-3D generation methods, we compare state-of-the-art Wonder3D (<a href="#ref_long2023wonder3d">Long et al., 2023</a>), TripoSR (<a href="#ref_tochilkin2024triposr">Tochilkin et al., 2024</a>), and OpenLRM (<a href="#ref_he2023openlrm">He et al., 2023</a>) in this section. Specifically, given a reference view as input, Wonder3D, TripoSR, and OpenLRM generate a 3D object with referenced texture. We can observe that the provided MaterialSeg3D significantly outperforms the previous work owing to the adoption of well-defined 3D mesh and Albedo information. For a fair comparison, we modify existing texture generation methods like Fantasia3D (<a href="#ref_chen2023fantasia3d">Chen et al., 2023</a>), Text2Tex (<a href="#ref_chen2023text2tex">Chen et al., 2023</a>), and online functions provided by <i>Meshy</i> (<a href="https://app.meshy.ai/">https://app.meshy.ai/</a>) for evaluation. Given a well-defined geometry mesh, previous work provides texturing results according to the text prompt as shown in Figer. The results demonstrate our method provides much more realistic renderings under different lighting conditions. Note that for Fantasia3D, we only adopt its texture generation (Appearance Modeling) stage during comparison. Moreover, we also provide material generation results for 3D assets obtained from public websites, exemplified as <i>tripo3d</i> (<a href="https://www.tripo3d.ai/app/">https://www.tripo3d.ai/app/</a>) and <i>turbosquid</i> (<a href="https://www.turbosquid.com/">https://www.turbosquid.com/</a>). From the results in <a href="#fig_compare">Fig. 1</a>, we can observe the proposed MaterialSeg3D can generate precise PBR material information while significantly improving the overall quality of the assets.</p>
+
+        </div>
+      </div>
+</div>
+    </div>
+    <!--/ Abstract. -->
+
+</section>
 
 <section class="section">
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
-<!--       <div class="column">
+<!--       Visual Effects. -->
+<div class="column">
         <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
+          <h2 class="title is-3">Example result 1</h2>
+<!--           <p>
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
-          </p>
+          </p> -->
           <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
+            <source src="./static/videos/1.mp4"
                     type="video/mp4">
           </video>
         </div>
-      </div> -->
+      </div>
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-<!--       <div class="column">
-        <h2 class="title is-3">Matting</h2>
+      <div class="column">
+        <h2 class="title is-3">Example result 2</h2>
         <div class="columns is-centered">
           <div class="column content">
-            <p>
+<!--             <p>
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
-            </p>
+            </p> -->
             <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
+              <source src="./static/videos/2.mp4"
                       type="video/mp4">
             </video>
           </div>
 
         </div>
       </div>
-    </div> -->
+    </div>
     <!--/ Matting. -->
 
     <!-- Animation. -->
