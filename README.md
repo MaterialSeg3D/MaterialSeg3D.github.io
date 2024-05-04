@@ -23,26 +23,9 @@
 Our data is coming soon.
 
 
-## Overview
+## code
+Our code is coming soon.
 
-
-
-## Prepare
-
-
-### (1) Prepare the environment
-```
-Ubuntu
-python 3.8
-cuda==11.8
-gcc==9.5.0
-conda env create -f environment.yaml
-conda activate Anomalydiffusion
-```
-
-## Citation
-
-If you make use of our work, please cite our paper:
 
 ```
 
