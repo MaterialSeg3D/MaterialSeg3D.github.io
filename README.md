@@ -28,5 +28,10 @@ Our code is coming soon.
 
 
 ```
-
+@article{li2024materialseg3d,
+  title={MaterialSeg3D: Segmenting Dense Materials from 2D Priors for 3D Assets},
+  author={Li, Zeyu and Gan, Ruitong and Luo, Chuanchen and Wang, Yuxi and Liu, Jiaheng and Zhang, Ziwei Zhu Man and Li, Qing and Yin, Xucheng and Zhang, Zhaoxiang and Peng, Junran},
+  journal={arXiv preprint arXiv:2404.13923},
+  year={2024}
+}
 ```
