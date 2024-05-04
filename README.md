@@ -1,7 +1,7 @@
 # MaterialSeg3D: Segmenting Dense Materials from 2D Priors for 3D Assets
 
 <!-- <br> -->
-[Zeyu Li<sup>1#</sup>](https://lizeyuking.github.io/), Ruitong Gan<sup>2#</sup>,  Chuanchen Luo<sup>3*</sup>, Yuxi Wang<sup>4</sup>,  Jiaheng Liu<sup>5</sup>, Ziwei Zhu<sup>6</sup>, Man Zhang<sup>1</sup>, Qing Li<sup>2</sup>,Xucheng Yin<sup>6</sup>, Zhaoxiang Zhang<sup>3</sup>, and Junran Peng<sup>3</sup>.
+[Zeyu Li<sup>1#</sup>](https://lizeyuking.github.io/), Ruitong Gan<sup>2#</sup>,  Chuanchen Luo<sup>3</sup>, Yuxi Wang<sup>4</sup>,  Jiaheng Liu<sup>5</sup>, Ziwei Zhu<sup>6</sup>, Man Zhang<sup>1*</sup>, Qing Li<sup>2</sup>,Xucheng Yin<sup>6</sup>, Zhaoxiang Zhang<sup>3*</sup>, and Junran Peng<sup>3</sup>.
 <!-- <br> -->
 
 (#Equal contribution)
