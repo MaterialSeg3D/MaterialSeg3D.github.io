@@ -7,7 +7,32 @@
   <meta name="keywords" content="Mesh, Computer Vision, Rendering">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MaterialSeg3D: Segmenting Dense Materials from 2D Priors for 3D Assets</title>
+ <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 10px;
+        }
 
+        .video-container {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .text-explanation {
+            text-align: center;
+            margin: 5px 0;
+        }
+    </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
@@ -283,7 +308,201 @@
   </div>
 </section> -->
 
-
+    <div class="container">
+        <!-- 第一行：文本解释 -->
+        <div class="text-explanation">Raw asset</div>
+        <div class="text-explanation">Materialized asset</div>
+        <!-- 重复剩下的文本解释，确保总数为10列 -->
+        <div class="text-explanation">Raw asset</div>
+        <div class="text-explanation">Materialized asset</div>
+        <div class="text-explanation">Raw asset</div>
+        <div class="text-explanation">Materialized asset</div>
+        <div class="text-explanation">Raw asset</div>
+        <div class="text-explanation">Materialized asset</div>
+        <div class="text-explanation">Raw asset</div>
+        <div class="text-explanation">Materialized asset</div>
+        <!-- 第二行到第五行的视频展示 -->
+        <!-- 第一个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/bed1/bed1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二个视频（在同一行内） -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/bed1/bed1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第三个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/bed2/bed2-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第四个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/bed2/bed2-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第五个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/cabint/cabint-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第六个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/cabint/cabint-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第七个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/car1/car1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第八个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/car1/car1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第九个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/car2/car2-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/car2/car2-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十一个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair1/chair1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十二个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair1/chair1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十三个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair2/chair2-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十四个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair2/chair2-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十五个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair3/chair3-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十六个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/chair3/chair3-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十七个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/house1/house1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十八个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/house1/house1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第十九个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/sofa/sofa-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/sofa/sofa-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十一个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/music1/music1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十二个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/music1/music1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十三个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/music2/music2-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十四个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/music2/music2-f.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十五个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/plant1/plant1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十六个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/plant1/plant1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+              <!-- 第二十五个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/plant2/plant2-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十六个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/plant2/plant2-f.mp4" type="video/mp4">
+            </video>
+        </div>
+                    <!-- 第二十五个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/table1/table1-r.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- 第二十六个视频 -->
+        <div class="video-container">
+            <video autoplay loop playsinline muted>
+                <source src="./static/videos/table1/table1-f.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
 
   
   <img class="small-image" src="./static/images/image1.png" alt="PDF Page 1">
