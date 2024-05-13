@@ -372,12 +372,12 @@ Extensive quantitative and qualitative experiments demonstrate the effectiveness
 
   
 <section class="section">
-   <div class="container is-max-desktop">
+
    <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Visualizing Performances</h2>
           <img src="./static/images/compare.PNG">
-         
+          <div class="container is-max-desktop">
         <div class="content has-text-justified">
  <p>To evaluate the effectiveness of the proposed material generation method, we compare previous approaches from the following three aspects: single-image-to-3D generation methods, texture generation methods, and public 3D assets. The corresponding results are shown in Figer. Considering single image-to-3D generation methods, we compare state-of-the-art Wonder3D, TripoSR, and OpenLRM in this section. Specifically, given a reference view as input, Wonder3D, TripoSR, and OpenLRM generate a 3D object with referenced texture. We can observe that the provided MaterialSeg3D significantly outperforms the previous work owing to the adoption of well-defined 3D mesh and Albedo information. For a fair comparison, we modify existing texture generation methods like Fantasia3D, Text2Tex, and online functions provided by <i>Meshy</i> (<a href="https://app.meshy.ai/">https://app.meshy.ai/</a>) for evaluation. Given a well-defined geometry mesh, previous work provides texturing results according to the text prompt as shown in Figer. The results demonstrate our method provides much more realistic renderings under different lighting conditions. Note that for Fantasia3D, we only adopt its texture generation (Appearance Modeling) stage during comparison. Moreover, we also provide material generation results for 3D assets obtained from public websites, exemplified as <i>tripo3d</i> (<a href="https://www.tripo3d.ai/app/">https://www.tripo3d.ai/app/</a>) and <i>turbosquid</i> (<a href="https://www.turbosquid.com/">https://www.turbosquid.com/</a>). From the results in Figer, we can observe the proposed MaterialSeg3D can generate precise PBR material information while significantly improving the overall quality of the assets.</p>
          </div>
