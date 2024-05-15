@@ -9,7 +9,7 @@
 [<sup>1</sup>Beijing University of Posts and Telecommunications](https://www.sjtu.edu.cn/), 
 [<sup>2</sup>Hong Kong Polytechnic University](https://open.youtu.qq.com/#/open)
 [<sup>3</sup> Institute of Automation, Chinese Academy of Sciences](https://open.youtu.qq.com/#/open)
-[<sup>4</sup>CARI, HKISI-CAS](https://open.youtu.qq.com/#/open)
+[<sup>4</sup>CAIR, HKISI-CAS](https://open.youtu.qq.com/#/open)
 [<sup>5</sup>Beijing University of Aeronautics and Astronautics](https://open.youtu.qq.com/#/open)
 [<sup>6</sup>University of Science and Technology Beijing](https://open.youtu.qq.com/#/open)
 
